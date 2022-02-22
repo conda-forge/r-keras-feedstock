@@ -23,22 +23,29 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-r6
+    - r-ellipsis
     - r-generics >=0.0.1
+    - r-glue
     - r-magrittr
-    - r-reticulate >=1.10
-    - r-tensorflow >=2.0.0
+    - r-reticulate >1.22
+    - r-rlang
+    - r-tensorflow >2.7.0
     - r-tfruns >=1.0
     - r-zeallot
   run:
     - r-base
     - r-r6
+    - r-ellipsis
     - r-generics >=0.0.1
+    - r-glue
     - r-magrittr
-    - r-reticulate >=1.10
-    - r-tensorflow >=2.0.0
+    - r-reticulate >1.22
+    - r-rlang
+    - r-tensorflow >2.7.0
     - r-tfruns >=1.0
     - r-zeallot
 
