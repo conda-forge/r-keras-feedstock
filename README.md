@@ -1,11 +1,11 @@
-About r-keras
-=============
+About r-keras-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-keras-feedstock/blob/main/LICENSE.txt)
 
 Home: https://keras.rstudio.com
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-keras-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface to 'Keras' <https://keras.io>, a high-level neural networks 'API'. 'Keras' was developed with a focus on enabling fast experimentation, supports both convolution based networks and recurrent networks (as well as combinations of the two), and runs seamlessly on both 'CPU' and 'GPU' devices.
 
