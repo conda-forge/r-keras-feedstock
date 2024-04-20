@@ -1,4 +1,4 @@
-{% set version = "2.13.0" %}
+{% set version = "2.15.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/keras_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/keras/keras_{{ version }}.tar.gz
-  sha256: 148dcb854e4b9875385494fe7522597e4a3a9f0b2862778f390866037e9e55f6
+  sha256: 6ce7a863407d8b7c40aff685df00061c7c188dd5a610f0e546f7b7c1f99b5075
 
 build:
   merge_build_host: true  # [win]
